@@ -14,6 +14,6 @@ namespace LoanScheduler.Services.Interfaces
 
         double CalculateInterest(double balance);
 
-        double CalculateInsurance(double amount)
+        double CalculateInsurance(double amount);
     }
 }
