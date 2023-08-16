@@ -32,7 +32,7 @@ namespace LoanScheduler.Services
                 {
                     Amount = monthlyAmount,
 
-                    Intereset = CalculateInterest(sched.Balance),
+                    Interest = CalculateInterest(sched.Balance),
 
                     Insurance = CalculateInsurance(monthlyAmount),
                 };
