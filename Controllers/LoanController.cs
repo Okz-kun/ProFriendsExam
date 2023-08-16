@@ -4,7 +4,7 @@ using LoanScheduler.Services.Interfaces;
 using System.Collections.Generic;
 using System.Web.Http;
 using System.Web.Mvc;
-using HttpGetAttribute = System.Web.Http.HttpGetAttribute;
+using HttpPostAttribute = System.Web.Http.HttpPostAttribute;
 using RouteAttribute = System.Web.Http.RouteAttribute;
 using RoutePrefixAttribute = System.Web.Http.RoutePrefixAttribute;
 
@@ -21,7 +21,7 @@ namespace LoanScheduler.Controllers
         }
 
         // GET: Loan
-        [HttpGet]
+        [HttpPost]
         [Route("calculate-loan-schedule")]
         public List<HeaderModel> CalculateLoanSchedule(InputModel inputData)
         {

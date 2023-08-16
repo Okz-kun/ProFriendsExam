@@ -4,7 +4,7 @@
     {
         public double Amount { get; set; }
 
-        public double Intereset { get; set; }
+        public double Interest { get; set; }
 
         public double Insurance { get; set; }
     }
